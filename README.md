@@ -1,7 +1,7 @@
-# Nombre del Proyecto
+# City Explorer
 
-**Autor**: Tu nombre va aquí
-**Versión**: 1.0.0 (aumenta el número de versión del parche/corrección si realizas más commits después de tu primer envío)
+**Autor**: Ricardo Mauricio Delgado Rivera
+**Versión**: 1.0.0
 
 ## Resumen
 <!-- Proporciona una descripción general detallada de esta aplicación y por qué la creaste, más allá del hecho de que es una tarea para esta clase (es decir, ¿cuál es tu descripción del problema?) -->
