@@ -1,6 +1,7 @@
 # Nombre del Proyecto
 
 **Autor**: Ricardo Mauricio Delgado Rivera
+
 **Versión**: 1.0.0 
 
 ## Review
