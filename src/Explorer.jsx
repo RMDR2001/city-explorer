@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Container,
   Row,
@@ -9,7 +9,7 @@ import axios from 'axios';
 import LatLon from './LatLon';
 import Map from './Map';
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = import.meta.env.VITE_KEY;
 
 const Explorer = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -25,7 +25,7 @@ const Explorer = () => {
   };
 
   const displayLatLon = async () => {
-    const url = `https://us1.locationiq.com/v1/search.php?key=${API_KEY}&q=${searchQuery}&format=json`;
+    const url = `https://us1.locationiq.com/v1/search.php?key=${VITE_KEY}&q=${searchQuery}&format=json`;
     try {
       const response = await axios.get(url);
       setLocation(response.data[0].display_name);
